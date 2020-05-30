@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/00450355a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Post One</title>
+</head>
+
+<body id="#home">
+    <header class="hero blog">
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h2>Blog</h2>
+        </div>
+    </header>
+    <main>
+        <section class="post">
+            <h2>Blog Post One</h2>
+            <p class="meta">
+                <i class="fas fa-user"></i>
+                <strong> by John Doe</strong>
+            </p>
+            <img src="images/blog/blog1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente voluptatem
+                reprehenderit corporis excepturi, perspiciatis nulla magni laudantium delectus architecto.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus unde est totam fuga dolorum, perferendis
+                veritatis, ipsum, repellat sunt impedit optio. Dignissimos mollitia, dolor velit vitae consectetur
+                beatae obcaecati aut? Quos quidem unde, corrupti cupiditate mollitia impedit sequi provident suscipit
+                maxime quas, magnam ullam recusandae fugit placeat corporis! Magnam, cupiditate?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, iusto ipsam optio numquam sequi odit
+                cupiditate dolorem ipsa commodi perferendis, quas, voluptate cumque delectus et. Optio in aliquid
+                molestiae sint amet a iusto repudiandae dolore odio ex mollitia nesciunt veniam dolorum, culpa facilis
+                dicta, non quis aspernatur rerum incidunt eius, enim impedit. Impedit consectetur, aliquam ut laboriosam
+                magnam recusandae earum?
+
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam fuga enim nemo error
+                praesentium molestiae facilis, sunt officia itaque similique iure nesciunt natus, animi ab id culpa
+                ipsum iusto non? Pariatur eligendi animi architecto, exercitationem natus perferendis ullam assumenda
+                reiciendis enim mollitia fugiat reprehenderit officia quisquam beatae, tempore nesciunt.</p>
+
+        </section>
+    </main>
+
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+    </footer>
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+            } else {
+                navbar.classList.add('top');
+            }
+        }
+    </script>
+</body>
+
+</html>
